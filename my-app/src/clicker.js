@@ -1,17 +1,17 @@
 import React from 'react';
+import './clicker.css';
 
-const counter = 0
+var counter = 0
 
 function handleClick() {
     counter = counter + 1
-    document.getElementById("demo").innerHTML = counter;
 }
 
-onClick=""
-function Clicker(){
+function Clicker(props){
   return(
     <div>
       <button onClick={handleClick}>Click me</button>
+      <p></p>
     </div>
   )
 };
