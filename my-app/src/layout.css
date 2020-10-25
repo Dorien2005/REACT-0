@@ -1,0 +1,17 @@
+#divider1{
+  position: absolute;
+  top: 0px;
+  left: 430px;
+  height: 100%;
+  width: 5px;
+  background-color: #000000;
+}
+
+#divider2{
+  position: absolute;
+  top: 0px;
+  left: 860px;
+  height: 100%;
+  width: 5px;
+  background-color: #000000;
+}
