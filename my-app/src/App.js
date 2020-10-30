@@ -4,6 +4,8 @@ import Clicker from './clicker.js';
 import Layout from './layout.js';
 import Text from './text.js';
 import Achievements from './achievements.js';
+import Building from './buildings.js'
+
 function App() {
   return (
     <div className="App">
@@ -11,6 +13,7 @@ function App() {
       <Layout/ >
       <Text />
       <Achievements />
+      <Building />
     </div>
   );
 }

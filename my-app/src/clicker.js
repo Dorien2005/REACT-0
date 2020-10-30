@@ -1,20 +1,36 @@
 import React from 'react';
 import './clicker.css';
 
-var counter = 0
+class Clicker extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      count: 0
+    }
+    this.handleClick = this.handleClick.bind(this)
+  }
 
-function handleClick() {
-    counter = counter + 1
-    document.getElementById('hoi').innerHTML = counter
-}
+  handleClick(){
+    this.setState(prevState => {
+           return {
+               count: prevState.count + 1
+           }
+       })
+  }
 
-function Clicker(props){
-  return(
-    <div>
-      <button id="button1" onClick={handleClick}>Click me</button>
-      <p id="hoi">{counter}</p>
-    </div>
-  )
+  render(){
+    return(
+      <div>
+        <button id="button1" onClick={this.handleClick}>Click me</button>
+        <p id="amount">{this.state.count}</p>
+      </div>
+    )
+  }
 };
 
 export default Clicker;
+
+
+//function handleClick() {
+//    document.getElementById('hoi').innerHTML = counter
+//}
