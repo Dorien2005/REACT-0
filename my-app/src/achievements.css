@@ -1,0 +1,51 @@
+.achievement{
+  color: #666666;
+  font-size: 26px;
+  text-align: center;
+  border: 2px solid #666666;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+#a1{
+  position: absolute;
+  left: 470px;
+  top: 60px;
+}
+
+#a2{
+  position: absolute;
+  left: 520px;
+  top: 60px;
+}
+
+#a3{
+  position: absolute;
+  left: 570px;
+  top: 60px;
+}
+
+#a4{
+  position: absolute;
+  left: 620px;
+  top: 60px;
+}
+
+#a5{
+  position: absolute;
+  left: 670px;
+  top: 60px;
+}
+
+#a6{
+  position: absolute;
+  left: 720px;
+  top: 60px;
+}
+
+#a7{
+  position: absolute;
+  left: 770px;
+  top: 60px;
+}

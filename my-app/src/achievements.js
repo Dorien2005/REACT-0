@@ -1,10 +1,24 @@
 import React from 'react';
 import './achievements.css';
+import count from './clicker.js';
+
+function handleHover(){
+  document.getElementById('a1').style.backgroundColor = "white";
+  document.getElementById('a1').style.borderColor = "black";
+  document.getElementById('a1').style.color = "black";
+  document.getElementById('a1').innerHTML = count
+}
 
 function Achievements(){
   return(
     <div>
-
+      <p class="achievement" id='a1' onMouseOver={handleHover}>1</p>
+      <p class="achievement" id="a2">2</p>
+      <p class="achievement" id="a3">3</p>
+      <p class="achievement" id="a4">4</p>
+      <p class="achievement" id="a5">5</p>
+      <p class="achievement" id="a6">6</p>
+      <p class="achievement" id="a7">7</p>
     </div>
   )
 }
@@ -12,12 +26,5 @@ function Achievements(){
 export default Achievements
 
 
-//      <p id="a1">true</p>
-//      <p id="a2">true</p>
-//      <p id="a3">true</p>
-//      <p id="a4">true</p>
-//      <p id="a5">true</p>
-//      <p id="a6">true</p>
-//      <p id="a7">true</p>
-//      <p id="a8">true</p>
-//      <p id="a9">true</p>
+
+//
