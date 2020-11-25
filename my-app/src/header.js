@@ -1,13 +1,12 @@
 import React from 'react';
 import './text.css';
 
-function Text(){
+function Header(){
   return(
     <div>
       <h2 id="header">Crabby clicker</h2>
-      <p id="nieuws">nieuws</p>
     </div>
   )
 }
 
-export default Text
+export default Header;

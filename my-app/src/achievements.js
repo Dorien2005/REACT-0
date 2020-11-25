@@ -1,12 +1,10 @@
 import React from 'react';
 import './achievements.css';
-import count from './clicker.js';
 
 function handleHover(){
   document.getElementById('a1').style.backgroundColor = "white";
   document.getElementById('a1').style.borderColor = "black";
   document.getElementById('a1').style.color = "black";
-  document.getElementById('a1').innerHTML = count
 }
 
 function Achievements(){

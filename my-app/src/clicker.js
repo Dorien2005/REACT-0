@@ -29,7 +29,6 @@ class Clicker extends React.Component {
 };
 
 export default Clicker;
-export var count;
 
 
 //function handleClick() {
